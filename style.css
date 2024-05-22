@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+    position: relative;
+    bottom: 10rem;
+  }
+  
+  form {
+    margin-bottom: 50px;
+  }
+  
+  /* Estilos para la card del Pokémon */
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    margin: 10px 0;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+  }
+  
+  /* Estilos específicos para tipo, altura y peso */
+  .type {
+    background-color: #ffcccb;
+    border-radius: 20px;
+    padding: 5px 10px;
+    display: inline-block;
+  }
+  
+  .height {
+    background-color: #d1ffd1;
+    border-radius: 20px;
+    padding: 5px 10px;
+    display: inline-block;
+  }
+  
+  .weight {
+    background-color: #cce5ff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    display: inline-block;
+  }
